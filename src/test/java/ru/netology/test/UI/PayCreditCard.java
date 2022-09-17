@@ -26,7 +26,7 @@ public class PayCreditCard {
     @BeforeEach
     public void openPage() {
 
-        open("http://localhost:8080");
+        open("http://185.119.57.64:8080");
     }
 
     @AfterEach

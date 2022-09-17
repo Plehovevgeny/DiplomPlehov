@@ -9,15 +9,15 @@ ___
 `docker-compose up-d`
 4. Запустить приложение:
 * Для MySQL:  
-`java -jar ./artifacts/aqa-shop.jar -- spring.datasource.url=jdbc:mysql://localhost:3306/app`
+`java -jar ./artifacts/aqa-shop.jar -- spring.datasource.url=jdbc:mysql://185.119.57.64:3306/app`
 * Для PostgreSQL:  
-`java -jar ./artifacts/aqa-shop.jar --spring.datasource.url=jdbc:postgresql://localhost:5432/app`
+`java -jar ./artifacts/aqa-shop.jar --spring.datasource.url=jdbc:postgresql://185.119.57.64:5432/app`
 5. Открыть второй терминал
 6. В новой вкладке терминала в IDEA запустить тесты:
 * Для MySQL:  
-`./gradlew clean test -Durl=jdbc:mysql://localhost:3306/app`
+`./gradlew clean test -Durl=jdbc:mysql://185.119.57.64:3306/app`
 * Для PostgreSQL:  
-`./gradlew clean test -Durl=jdbc:postgresql://localhost:5432/app`
+`./gradlew clean test -Durl=jdbc:postgresql://185.119.57.64:5432/app`
 7. Создать отчёт Allure  
 `.\gradlew allureServe`
 8. Для завершения работы allureServe выполнить команду
