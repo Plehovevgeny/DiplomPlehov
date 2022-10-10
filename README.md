@@ -32,7 +32,7 @@ ___
 ___
 
 ## Документация проекта:
-[1. Задание к диплому](https://github.com/Plehovevgeny/DiplomPlehov/tree/main/Documents/TaskDescription.md)  
+[1.Задание к диплому](https://github.com/Plehovevgeny/DiplomPlehov/tree/main/Documents/TaskDescription.md)  
 [2.План автоматизации](https://github.com/Plehovevgeny/DiplomPlehov/tree/main/Documents/Plan.md)  
 [3.Отчет по итогам тестирования](https://github.com/Plehovevgeny/DiplomPlehov/tree/main/Documents/Report.md)  
 [4.Отчет по итогам автоматизации](https://github.com/Plehovevgeny/DiplomPlehov/tree/main/Documents/Summary.md)
